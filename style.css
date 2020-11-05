@@ -39,6 +39,6 @@
 }
 
 /* eccezione colore sconto del 5% */
-.row:first-child .box:nth-child(2) .badge {
+.row .box:nth-child(2) .badge {
   background-color: red;
 }
