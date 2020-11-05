@@ -5,3 +5,40 @@
   box-sizing: border-box;
 }
 /*Fine reset */
+
+/* regole principali dell'interno contenitore */
+.contenitore {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* regole delle righe */
+.row {
+  height: 400px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+/* regole necessarie dei vari box */
+.box {
+  width: 33%;
+  height: 400px;
+  background-color: #eee;
+  display: inline-block;
+  border: 1px solid #fff;
+  text-align: center;
+  position: relative;
+}
+
+/* regole generali sconti */
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+/* eccezione colore sconto del 5% */
+.row:first-child .box:nth-child(2) .badge {
+  background-color: red;
+}
