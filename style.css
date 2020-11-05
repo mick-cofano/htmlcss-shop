@@ -42,3 +42,18 @@
 .row .box:nth-child(2) .badge {
   background-color: red;
 }
+
+/* Regole cuoricino dei preferiti */
+.heart {
+  width: 100%;
+  position: absolute;
+  color: red;
+  bottom: 0;
+  display: none;
+  font-size: 30px;
+}
+
+/* Cuore visibile al passaggio del mouse per ogni item */
+.box:hover .heart {
+  display: block;
+}
